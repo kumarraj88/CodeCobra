@@ -31,3 +31,6 @@ try {
 catch {
     Write-Host $error[0].Message
 }
+
+<# It will be helpful for users who wants to provision 100 sites and then apply provisioning template to all these 100 sites. 
+Currently I don't find any script which can apply when we create a site using power shell. #>
